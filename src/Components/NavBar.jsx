@@ -16,8 +16,7 @@ function NavBar() {
     }
     const HideNavMenuBySection =(event)=>{
         setShow(false)
-    }
-    
+    }    
 
   return (
     <>
