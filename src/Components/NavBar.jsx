@@ -28,17 +28,17 @@ function NavBar() {
           <div className={`nav__menu ${show ? 'show-menu': ''}`} id="nav-menu">
             <ul className="nav__list grid">
               <li className="nav_item">
-                <a href="" className="nav__link" onClick={HideNavMenuBySection}>
+                <a href="#home" className="nav__link" onClick={HideNavMenuBySection}>
                   <UilEstate className="nav__icon"/> Home
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#" className="nav__link" onClick={HideNavMenuBySection}>
+                <a href="#about" className="nav__link" onClick={HideNavMenuBySection}>
                   <UilUser className="nav__icon"/> About
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#" className="nav__link" onClick={HideNavMenuBySection}>
+                <a href="#skills" className="nav__link" onClick={HideNavMenuBySection}>
                   <UilFileAlt className="nav__icon"/> Skills
                 </a>
               </li>
