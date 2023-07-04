@@ -28,7 +28,7 @@ function NavBar() {
           <div className={`nav__menu ${show ? 'show-menu': ''}`} id="nav-menu">
             <ul className="nav__list grid">
               <li className="nav_item">
-                <a href="#" className="nav__link" onClick={HideNavMenuBySection}>
+                <a href="" className="nav__link" onClick={HideNavMenuBySection}>
                   <UilEstate className="nav__icon"/> Home
                 </a>
               </li>
