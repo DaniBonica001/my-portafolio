@@ -43,7 +43,7 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#" className="nav__link" onClick={HideNavMenuBySection}>
+                <a href="#services" className="nav__link" onClick={HideNavMenuBySection}>
                   <UilBriefcaseAlt className="nav__icon"/> Services
                 </a>
               </li>
