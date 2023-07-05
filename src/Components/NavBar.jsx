@@ -53,7 +53,7 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#" className="nav__link" onClick={HideNavMenuBySection}>
+                <a href="#contact" className="nav__link" onClick={HideNavMenuBySection}>
                   <UilMessage className="nav__icon"/> Contact me
                 </a>
               </li>
