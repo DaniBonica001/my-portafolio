@@ -696,8 +696,7 @@ img {
 .contact__label{
   font-size: var(--small-font-size);
   color: var(--title-color); 
-  padding-left: 1rem;
-  padding-top: 5rem;
+  padding-left: 1rem;  
 }
 
 .contact__input{
@@ -1052,15 +1051,16 @@ img {
 
   .home__container{
     max-width: fit-content;
-    margin-left: 6rem;
+    margin-left: 28rem;
+    margin-right: 20rem;
   }
-
+  
   .home__blob{
     width: 320px;
   }
 
   .home__social{
-    transform: translateX(-2rem);
+    transform: translateX(-5rem);
   }
   
   .services__container{
@@ -1072,7 +1072,7 @@ img {
   }
 
   .portafolio__swiper{
-    max-width: 1000px;
+    max-width: 1500px;
   }
 
   .contact__form{

@@ -63,7 +63,7 @@ function Home() {
             <h1 className="home__title">Hi, I'm Daniela</h1>
             <h3 className="home__subtitle">FrontEnd Developer</h3>
             <p className="home__description">Constantly seeking to expand my knowledge and skills in the field of software engineering. I fully trust in my ability to learn and my ability to face the problems.</p>
-            <a href="" className="button button--flex">
+            <a href="#contact" className="button button--flex">
                 Contact Me <UilMessage className="button__icon"/>
             </a>
           </div>
@@ -71,7 +71,7 @@ function Home() {
         <div className="home__scroll">
             <a href="" className="home__scroll-button button--flex">
                 <UilMouseAlt className="home__scroll-mouse"/>
-                <span className="home__scroll-name">Scroll down </span>
+                <a href="#about" className="home__scroll-name">Scroll down </a>
                 <UilArrowDown className="home__scroll-arrow"/>
             </a>
         </div>
