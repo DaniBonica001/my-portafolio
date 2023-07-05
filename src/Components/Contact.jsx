@@ -61,33 +61,36 @@ function Contact() {
           <div className="contact__inputs grid">
 
             <div className="contact__content">
-              <label htmlFor="" className="contact__label">
+              <label htmlFor="yourname" className="contact__label">
                 Name
               </label>
               <input
                 {...register("name")}
+                id="yourname"
                 type="text"
                 className="contact__input"
               />
             </div>
 
             <div className="contact__content">
-              <label htmlFor="" className="contact__label">
+              <label htmlFor="correito" className="contact__label">
                 Email
               </label>
               <input
                 {...register("email")}
+                id="correito"
                 type="email"
                 className="contact__input"
               />
             </div>
 
             <div className="contact__content">
-              <label htmlFor="" className="contact__label">
+              <label htmlFor="mensajito" className="contact__label">
                 Message
               </label>
               <textarea
                 {...register("message")}
+                id="mensajito"
                 cols="0"
                 rows="7"
                 type="text"

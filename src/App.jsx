@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import Portafolio from "./Components/Portafolio";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import ScrollUp from "./Components/ScrollUp";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Portafolio/>
       <Contact/>
       <Footer/>
+      <ScrollUp/>
          
     </>
   );

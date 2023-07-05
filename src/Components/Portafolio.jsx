@@ -20,7 +20,7 @@ function Portafolio() {
           mousewheel={true}
           keyboard={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-          style={{maxWidth:'500px'}}       
+          style={{maxWidth:'400px'}}       
         >
           {/*Portafolio 1 */}
           <SwiperSlide style={{height:'380px', textAlign:"center"}} className="portafolio__content grid swiper-slide">

@@ -11,6 +11,7 @@ import { useState } from "react";
 
 function NavBar() {
     const [show, setShow] = useState(false);
+    
     const ShowNavMenu = (event)=>{
         setShow(!show)
     }
@@ -20,7 +21,7 @@ function NavBar() {
 
   return (
     <>
-      <header className="header" id="header">
+      <header className="header scroll-header" id="header">
         <nav className="nav container">
           <a href="#" className="nav__logo">
             Daniela
