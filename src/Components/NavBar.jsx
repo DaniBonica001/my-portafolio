@@ -48,7 +48,7 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#" className="nav__link" onClick={HideNavMenuBySection}>
+                <a href="#portafolio" className="nav__link" onClick={HideNavMenuBySection}>
                   <UilScenery className="nav__icon"/> Portafolio
                 </a>
               </li>
