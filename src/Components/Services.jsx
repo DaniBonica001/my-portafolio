@@ -42,19 +42,23 @@ function Services() {
               <UilTimes className="services__modal-close" onClick={handleShowMoreInformation}/>
 
               <ul className="services__modal-services grid">
-                <li className="services__modal-services">
+
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I develop the user interface</p>
                 </li>
-                <li className="services__modal-services">
+
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>Web page development</p>
                 </li>
-                <li className="services__modal-services">
+
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I create ux element interactions</p>
                 </li>
-                <li className="services__modal-services">
+
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I position your company brand</p>
                 </li>
@@ -84,19 +88,19 @@ function Services() {
               <UilTimes className="services__modal-close" onClick={handleShowMoreInformation}/>
 
               <ul className="services__modal-services grid">
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I develop the user interface</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>Web page development</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I create ux element interactions</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I position your company brand</p>
                 </li>
@@ -128,19 +132,19 @@ function Services() {
               <UilTimes className="services__modal-close" onClick={handleShowMoreInformation}/>
 
               <ul className="services__modal-services grid">
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I develop the user interface</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>Web page development</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I create ux element interactions</p>
                 </li>
-                <li className="services__modal-services">
+                <li className="services__modal-service">
                   <UilCheckCircle className="services__modal-icon" />
                   <p>I position your company brand</p>
                 </li>
