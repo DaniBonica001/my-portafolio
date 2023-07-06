@@ -774,7 +774,7 @@ img {
   bottom: 5rem;
   background-color: rgb(38, 31, 86);
   opacity: .8;
-  padding: 0 .3rem;
+  padding: .3rem .3rem 0;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
