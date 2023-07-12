@@ -69,9 +69,9 @@ function Home() {
           </div>
         </div>
         <div className="home__scroll">
-            <a href="" className="home__scroll-button button--flex">
+            <a href="#about" className="home__scroll-button button--flex">
                 <UilMouseAlt className="home__scroll-mouse"/>
-                <a href="#about" className="home__scroll-name">Scroll down </a>
+                <span className="home__scroll-name">Scroll down </span>
                 <UilArrowDown className="home__scroll-arrow"/>
             </a>
         </div>

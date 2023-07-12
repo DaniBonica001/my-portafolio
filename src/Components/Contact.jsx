@@ -3,21 +3,29 @@ import { UilPhone } from "@iconscout/react-unicons";
 import { UilEnvelope } from "@iconscout/react-unicons";
 import { UilMapMarker } from "@iconscout/react-unicons";
 import { UilMessage } from "@iconscout/react-unicons";
-
 import { useForm } from "react-hook-form";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+
 
 function Contact() {
   const { register, handleSubmit, reset } = useForm({
     defaultValues: {
       name: "",
       email: "",
+      subject:"",
       message: "",
     },
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const form = useRef();
+
+  const onSubmit = (data) => {    
+    //console.log(data);  
+    
+    emailjs.sendForm('service_t4swpac','template_rrubtzo',form.current,'0vVHEyCLkV8g8H2i0')
     reset();
+    alert("Message submitted")
   };
 
   return (
@@ -57,7 +65,7 @@ function Contact() {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="contact__form grid">
+        <form onSubmit={handleSubmit(onSubmit)} className="contact__form grid" ref={form}>
           <div className="contact__inputs grid">
 
             <div className="contact__content">
@@ -67,7 +75,7 @@ function Contact() {
               <input
                 {...register("name")}
                 id="yourname"
-                type="text"
+                type="text"                
                 className="contact__input"
               />
             </div>
@@ -79,7 +87,19 @@ function Contact() {
               <input
                 {...register("email")}
                 id="correito"
-                type="email"
+                type="email"                
+                className="contact__input"
+              />
+            </div>
+
+            <div className="contact__content">
+              <label htmlFor="subjetito" className="contact__label">
+                Subject
+              </label>
+              <input
+                {...register("subject")}
+                id="subjetito"
+                type="text"                
                 className="contact__input"
               />
             </div>
@@ -93,7 +113,7 @@ function Contact() {
                 id="mensajito"
                 cols="0"
                 rows="7"
-                type="text"
+                type="text"                
                 className="contact__input"
               />
             </div>

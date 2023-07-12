@@ -6,33 +6,32 @@ import { UilSwatchbook } from "@iconscout/react-unicons";
 import { useState } from "react";
 
 function Skills() {
+  const [showSkills, setShowSkills] = useState({
+    showSkills1: false,
+    showSkills2: true,
+    showSkills3: false,
+  });
 
-    const [showSkills, setShowSkills] = useState({
-        showSkills1: false,
-        showSkills2: true,
-        showSkills3: false,
-    })
+  function frontSkills(event) {
+    setShowSkills({
+      ...showSkills,
+      showSkills1: !showSkills.showSkills1,
+    });
+  }
 
-    function frontSkills (event) {    
-        setShowSkills({          
-            ...showSkills,  
-            showSkills1: !showSkills.showSkills1            
-        });        
-    }
+  function backSkills(event) {
+    setShowSkills({
+      ...showSkills,
+      showSkills2: !showSkills.showSkills2,
+    });
+  }
 
-    function backSkills (event) {            
-        setShowSkills({    
-            ...showSkills,      
-            showSkills2: !showSkills.showSkills2,            
-        })
-    }
-
-    function designSkills (event) {   
-        setShowSkills({       
-            ...showSkills,     
-            showSkills3: !showSkills.showSkills3,            
-        })
-    }
+  function designSkills(event) {
+    setShowSkills({
+      ...showSkills,
+      showSkills3: !showSkills.showSkills3,
+    });
+  }
 
   return (
     <section className="skills section" id="skills">
@@ -41,14 +40,18 @@ function Skills() {
 
       <div className="skills__container container grid">
         <div>
-          {/* Skills 1 */}
-          <div className={`skills__content ${showSkills.showSkills1 ? 'skills__open': 'skills__close'}`}>
+          {/* Skills 1 - Frontend*/}
+          <div
+            className={`skills__content ${
+              showSkills.showSkills1 ? "skills__open" : "skills__close"
+            }`}
+          >
             <div className="skills__header" onClick={frontSkills}>
               <UilBracketsCurly className="skills__icon" />
 
               <div>
                 <h1 className="skills__title">FrontEnd developer</h1>
-                <span className="skills__subtitle">More than 4 years</span>
+                <span className="skills__subtitle">Approximately 1 year</span>
               </div>
 
               <UilAngleDown className="skills__arrow" />
@@ -67,7 +70,7 @@ function Skills() {
               <div className="skills__data">
                 <div className="skills__title">
                   <h3 className="skills__name">CSS</h3>
-                  <span className="skills__number">80%</span>
+                  <span className="skills__number">50%</span>
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage skills__css"></span>
@@ -95,9 +98,14 @@ function Skills() {
               </div>
             </div>
           </div>
-
-          {/* Skills 2 */}
-          <div className={`skills__content ${showSkills.showSkills2 ? 'skills__open': 'skills__close'}`}>
+        </div>
+        <div>
+          {/* Skills 2 - Backend */}
+          <div
+            className={`skills__content ${
+              showSkills.showSkills2 ? "skills__open" : "skills__close"
+            }`}
+          >
             <div className="skills__header" onClick={backSkills}>
               <UilServer className="skills__icon" />
 
@@ -111,18 +119,18 @@ function Skills() {
             <div className="skills__list grid">
               <div className="skills__data">
                 <div className="skills__title">
-                  <h3 className="skills__name">PHP</h3>
+                  <h3 className="skills__name">Java</h3>
                   <span className="skills__number">80%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__php"></span>
+                  <span className="skills__percentage skills__java"></span>
                 </div>
               </div>
 
               <div className="skills__data">
                 <div className="skills__title">
                   <h3 className="skills__name">Node Js</h3>
-                  <span className="skills__number">70%</span>
+                  <span className="skills__number">40%</span>
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage skills__node"></span>
@@ -131,18 +139,18 @@ function Skills() {
 
               <div className="skills__data">
                 <div className="skills__title">
-                  <h3 className="skills__name">Firebase</h3>
-                  <span className="skills__number">90%</span>
+                  <h3 className="skills__name">Spring Boot</h3>
+                  <span className="skills__number">50%</span>
                 </div>
                 <div className="skills__bar">
-                  <span className="skills__percentage skills__firebase"></span>
+                  <span className="skills__percentage skills__spring"></span>
                 </div>
               </div>
 
               <div className="skills__data">
                 <div className="skills__title">
-                  <h3 className="skills__name">Pyhton</h3>
-                  <span className="skills__number">55%</span>
+                  <h3 className="skills__name">Pyhton to IA</h3>
+                  <span className="skills__number">40%</span>
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage skills__python"></span>
@@ -150,10 +158,8 @@ function Skills() {
               </div>
             </div>
           </div>
-        </div>
-        <div>
           {/* Skills 3 */}
-          <div className={`skills__content ${showSkills.showSkills3 ? 'skills__open': 'skills__close'}`}>
+          {/* <div className={`skills__content ${showSkills.showSkills3 ? 'skills__open': 'skills__close'}`}>
             <div className="skills__header" onClick={designSkills}>
               <UilSwatchbook className="skills__icon" />
 
@@ -195,7 +201,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
