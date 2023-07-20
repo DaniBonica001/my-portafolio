@@ -488,7 +488,11 @@ img {
 }
 
 .skills__node{
-  width: 40%;
+  width: 70%;
+}
+
+.skills__express{
+  width: 60%;
 }
 
 .skills__spring{

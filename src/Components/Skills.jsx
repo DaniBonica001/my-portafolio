@@ -130,10 +130,20 @@ function Skills() {
               <div className="skills__data">
                 <div className="skills__title">
                   <h3 className="skills__name">Node Js</h3>
-                  <span className="skills__number">40%</span>
+                  <span className="skills__number">70%</span>
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage skills__node"></span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <div className="skills__title">
+                  <h3 className="skills__name">Express</h3>
+                  <span className="skills__number">60%</span>
+                </div>
+                <div className="skills__bar">
+                  <span className="skills__percentage skills__express"></span>
                 </div>
               </div>
 
