@@ -25,15 +25,14 @@ function Portafolio() {
           {/*Portafolio 1 */}
           <SwiperSlide style={{height:'380px', textAlign:"center"}} className="portafolio__content grid swiper-slide">
             <img
-              src="src/assets/portfolio1.jpg"
+              src="src/assets/taskManager.jpg"
               alt="img1"
               className="portafolio__img"
             />
             <div className="portafolio__data">
-              <h3 className="portafolio__title">Modern Website</h3>
+              <h3 className="portafolio__title">Task Manager</h3>
               <p className="portafolio__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatum.
+                Web page developed with the stack MERN to handle tasks by user. This page counts with authentication through JSON Web Tokens and cookies.
               </p>
 
               <a
@@ -41,6 +40,12 @@ function Portafolio() {
                 className="button button--flex button--small portafolio__button"
               >
                 Demo <UilArrowRight className="button__icon" />
+              </a> 
+              <a
+                href="https://github.com/DaniBonica001/taskManager-auth-MERN" target="_blank"
+                className="button button--flex button--small portafolio__button"
+              >
+                Code <UilArrowRight className="button__icon" />
               </a>
             </div>
           </SwiperSlide>

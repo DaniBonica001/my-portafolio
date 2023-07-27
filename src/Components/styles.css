@@ -346,7 +346,9 @@ img {
 } 
 
 .button--small{
-  padding: .75rem 1rem;
+  padding: .75rem 1rem 1rem 1rem;
+  margin-right: 1rem;
+  
 }
 
 .button--link{
@@ -623,11 +625,12 @@ img {
 /*==================== PORTFOLIO ====================*/
 
 .portafolio__swiper{
-  max-width: 400px;
+  max-width: 100px;
 }
 
 .portafolio__container{
   overflow: initial;
+  max-width: 850px;
 }
 
 .portafolio__content{
@@ -647,7 +650,10 @@ img {
 }
 
 .portafolio__description{
-  margin-bottom: var(--mb-0-75);
+  
+  max-width: 600px; /* Ajusta el valor según el ancho deseado */
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .portafolio__button:hover .button__icon{
