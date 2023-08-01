@@ -65,7 +65,7 @@ function Contact() {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="contact__form grid" ref={form}>
+        < form onSubmit={handleSubmit(onSubmit)} className="contact__form grid" ref={form}>
           <div className="contact__inputs grid">
 
             <div className="contact__content">
