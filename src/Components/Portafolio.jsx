@@ -90,29 +90,36 @@ function Portafolio() {
             </div>
           </SwiperSlide>
 
+
           {/* Portafolio 3 */}
           <SwiperSlide
             style={{ height: "380px", textAlign: "center" }}
             className="portafolio__content grid"
           >
             <img
-              src="src/assets/portfolio3.jpg"
+              src="src/assets/travel.png"
               alt="img3"
               className="portafolio__img"
             />
 
             <div className="portafolio__data">
-              <h3 className="portafolio__title">Online Store</h3>
+              <h3 className="portafolio__title">Travel web page</h3>
               <p className="portafolio__description">
-                Website adaptable to all devices, with ui components and
-                animated interactions.{" "}
+                Responsive website that provides information about destinations around the world, and helps the user to plan his travel. {" "}
               </p>
               <a
-                href=""
+                href="https://danibonica001.github.io/book_travel/"
                 className="button button--flex button--small portafolio__button"
               >
                 Demo
                 <UilArrowRight className="button__icon" />
+              </a>
+              <a
+                href="https://github.com/DaniBonica001/book_travel"
+                target="_blank"
+                className="button button--flex button--small portafolio__button"
+              >
+                Code <UilArrowRight className="button__icon" />
               </a>
             </div>
           </SwiperSlide>
