@@ -13,7 +13,7 @@ function About() {
                 <p className="about__description">As a passionate and skilled full-stack developer, I've worked on diverse projects both independently and collaboratively in cross-functional teams. Thriving in fast-paced environments, I efficiently adapt to changing project requirements, leveraging my expertise in agile methodologies.</p>
 
                 <div className="about__buttons">
-                    <a download="" href="src/assets/pdf/CV_Daniela_Bonilla_Caceres.pdf" className="button button--flex">
+                    <a download="" href="src/assets/pdf/CV_DanielaBonilla.pdf" className="button button--flex">
                         Download CV<UilDownloadAlt className="button__icon"/>
                     </a>
                 </div>
