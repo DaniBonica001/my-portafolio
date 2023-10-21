@@ -5,6 +5,7 @@ import { UilInstagram } from "@iconscout/react-unicons";
 import { UilMessage } from "@iconscout/react-unicons";
 import { UilMouseAlt } from "@iconscout/react-unicons";
 import { UilArrowDown } from "@iconscout/react-unicons";
+import profile from "../assets/perfil.png"
 
 function Home() {
   return (
@@ -45,7 +46,7 @@ function Home() {
                 className="home__blob-img"
                 x="12"
                 y="18"
-                href="src/assets/perfil.png"
+                href={profile}
               />
             </svg>
           </div>

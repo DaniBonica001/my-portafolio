@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer__container container grid">
           <div>
             <h1 className="footer__title">Daniela</h1>
-            <span className="footer__subtitle">FullStack developer</span>
+            <span className="footer__subtitle">Software Engineer</span>
           </div>
 
           <ul className="footer__links">

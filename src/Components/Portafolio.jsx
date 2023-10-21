@@ -6,6 +6,9 @@ import "swiper/css/pagination";
 import { UilArrowRight } from "@iconscout/react-unicons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import taskm from "../assets/taskManager.jpg"
+import pizza from "../assets/pizza_project.jpg"
+import travel from "../assets/travel.png"
 
 function Portafolio() {
   return (
@@ -28,7 +31,7 @@ function Portafolio() {
             className="portafolio__content grid swiper-slide"
           >
             <img
-              src="src/assets/taskManager.jpg"
+              src={taskm}
               alt="img1"
               className="portafolio__img"
             />
@@ -62,7 +65,7 @@ function Portafolio() {
             className="portafolio__content grid"
           >
             <img
-              src="src/assets/pizza_project.jpg"
+              src={pizza}
               alt="img2"
               className="portafolio__img"
             />
@@ -98,7 +101,7 @@ function Portafolio() {
             className="portafolio__content grid"
           >
             <img
-              src="src/assets/travel.png"
+              src={travel}
               alt="img3"
               className="portafolio__img"
             />
