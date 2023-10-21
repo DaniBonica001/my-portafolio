@@ -51,11 +51,9 @@ function Home() {
           </div>
           <div className="home__data">
             <h1 className="home__title">Hi, I'm Daniela</h1>
-            <h3 className="home__subtitle">FrontEnd Developer</h3>
+            <h3 className="home__subtitle">Software Engineer</h3>
             <p className="home__description">
-              Constantly seeking to expand my knowledge and skills in the field
-              of software engineering. I fully trust in my ability to learn and
-              my ability to face the problems.
+            As a passionate full-stack developer, my focus is on crafting systems that meet the highest quality standards. My enthusiasm drives me to tackle challenges and maintain continuous learning to stay current with the latest technological trends. My commitment is to ongoing growth as a developer, contributing to the creation of reliable and adaptable applications.
             </p>
             <a href="#contact" className="button button--flex">
               Contact Me <UilMessage className="button__icon" />
