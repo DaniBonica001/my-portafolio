@@ -159,7 +159,7 @@ function Skills() {
 
               <div className="skills__data">
                 <div className="skills__title">
-                  <h3 className="skills__name">Pyhton to IA</h3>
+                  <h3 className="skills__name">Python to IA</h3>
                   <span className="skills__number">40%</span>
                 </div>
                 <div className="skills__bar">
